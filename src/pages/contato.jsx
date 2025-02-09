@@ -65,7 +65,7 @@ function Contato() {
             <img
               src={img2}
               alt="LinkedIn"
-              onMouseEnter={(e) => handleIconMouseEnter(e, "Meu GitHub", "https://github.com/ThiagoCezimbra")}
+              onMouseEnter={(e) => handleIconMouseEnter(e, "My GitHub", "https://github.com/ThiagoCezimbra")}
               onMouseLeave={handleIconMouseLeave}
               onClick={() => handleClick("https://github.com/ThiagoCezimbra")}
             />
