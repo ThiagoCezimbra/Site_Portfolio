@@ -1,0 +1,39 @@
+.header {
+    padding: 10px 20px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 50px;
+    right: 130px;
+    width: auto;
+    z-index: 10;
+}
+
+/* Estilos padrão da navegação */
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 50px; /* Aumenta o espaço entre as opções */
+}
+
+.nav-list li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.8em;
+    transition: text-shadow 0.3s ease;
+    padding: 5px 0;
+    display: inline-block;
+}
+
+.nav-list li a:hover {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff;
+}
+
+.hamburger {
+    display: none; /* Esconde o ícone do menu hambúrguer */
+}
+
+/* ===================== */
+/* Responsividade removida */
